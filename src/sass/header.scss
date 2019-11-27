@@ -1,0 +1,18 @@
+.header__logo {
+  display: block;
+  width: 400px;
+  height: 180px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+
+  @media (min-width: 768px) {
+    margin-top: 0;
+  }
+  @media (min-width: 1024px) {
+    margin-top: 50px;
+  }
+}
+
+.header__logo:hover {
+  opacity: 0.7;
+}
